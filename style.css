@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .game-container {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #00f0ff;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    border: 4px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 0 20px #fff;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .red {
+    background: #f94144;
+  }
+  
+  .yellow {
+    background: #f9c74f;
+  }
+  
+  .green {
+    background: #43aa8b;
+  }
+  
+  .purple {
+    background: #577590;
+  }
+  
+  .flash {
+    background-color: white !important;
+  }
+  
+  .userflash {
+    box-shadow: 0 0 30px orchid !important;
+  }
+  
+  body.game-over {
+    animation: shake 0.3s;
+    background-color: #8b0000;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+  
