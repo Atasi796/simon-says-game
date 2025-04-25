@@ -1,7 +1,10 @@
 # simon-says-game
 "Simon Says Game built with HTML, CSS, and JavaScript."
 ## 📂 Project Structure
-simon-says-game/ ├── index.html # Main HTML file ├── style.css # CSS file for the game ├── app.js # JavaScript file with game logic └── README.md # This file with project details
+simon-says-game  ├── index.html
+                 ├── style.css 
+                 ├── app.js
+                 └── README.md # This file with project details
 ## 🚀 How to Run the Game
 
 1. Clone the repository:
